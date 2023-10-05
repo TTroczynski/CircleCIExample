@@ -8,7 +8,7 @@ THRESHOLD = 9
 
 run = lint.Run(["app.py"], exit=False)
 
-score = run.linter.stats["global_note"]
+score = run.linter.stats.global_note
 
 if score < THRESHOLD:
 
