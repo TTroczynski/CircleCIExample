@@ -13,4 +13,7 @@ def test_load_Model_GivenNoPath_FailsToLoadModel():
                 model.load_model(" ")
         assert str(ExceptionInfo.value) != "";
 
-
+def test_render_template_GivenNoPath_FailsToLoadTemplate()
+        with pytest.raises(Exception) as ExceptionInfo:
+                flask.render_template(" ");
+        assert str(ExceptionInfo.value) != "";
