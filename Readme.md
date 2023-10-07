@@ -1,3 +1,11 @@
+# PyLint Status
+
+[![Pylint](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pylint-config.yml/badge.svg)](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pylint-config.yml)
+
+# PyTest Status
+
+[![PyTest](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pytest-config.yml/badge.svg)](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pytest-config.yml)
+
 # Hand Digit Image Recognition
 
 This web app is made using Flask framework and is all about predicting the hand sign digit images based on the deep learning model trained using transfer learning.
