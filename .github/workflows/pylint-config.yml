@@ -33,6 +33,7 @@ jobs:
         pip install tensorflow
         pip install numpy
         pip install Pillow
+        pip install pytest
     - name: Analysing the code with pylint
       working-directory: ./
       run: |
