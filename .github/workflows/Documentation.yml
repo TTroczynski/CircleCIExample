@@ -17,15 +17,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint
-    - name: Analysing the code with pylint
+        pip install sphinx
+        mkdir -p docs
+    - name: Generating documentation
       run: |
-        pylint $(git ls-files '*.py')
-    - name: Working on documentation dependanceies
-      run: |
-        python -m pip install --upgrade pip
-        pip install Sphinx
-    - name: Genterating documentation
-      run: |
-        pylint $(git ls-files '*.py')
-     
+        cd docs
+        make html
