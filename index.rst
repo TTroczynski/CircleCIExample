@@ -9,14 +9,14 @@ Welcome to Assignment 2's documentation!
    :members:
 
 .. automodule:: test_FlaskTests
-   :members: 
+   :members:
 
 .. automodule:: model
-   :members: 
+   :members:
 
 .. automodule:: conf
-   :members: 
-   
+   :members:
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
