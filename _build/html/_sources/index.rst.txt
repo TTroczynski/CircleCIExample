@@ -8,6 +8,15 @@ Welcome to Assignment 2's documentation!
 .. automodule:: app
    :members:
 
+.. automodule:: test_FlaskTests
+   :members: 
+
+.. automodule:: model
+   :members: 
+
+.. automodule:: conf
+   :members: 
+   
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
