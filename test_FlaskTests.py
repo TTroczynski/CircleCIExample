@@ -30,4 +30,3 @@ def test_path_with_backwards_brackets():
         model.preprocess_img("test_images\\0\\Sign 0 (89).jpeg")
     except ValueError:
         pytest.fail("exception was thrown")
-        
