@@ -26,8 +26,6 @@ def test_path_with_forward_brackets():
         pytest.fail("exception was thrown")
 def test_path_with_backwards_brackets():
     """Validates exception thrown render_template when a path is improperly specified"""
-    try:
+    with pytest.raises(Exception) as exception_info:
         model.preprocess_img("test_images\\0\\Sign 0 (89).jpeg")
-    except FileNotFoundError:
-        pytest.fail("exception was thrown")
-
+    assert str(exception_info.value) != ""
