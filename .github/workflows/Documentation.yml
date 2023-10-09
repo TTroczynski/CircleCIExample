@@ -1,4 +1,4 @@
-name: Pylint
+name: Documentation
 
 on: [push]
 
