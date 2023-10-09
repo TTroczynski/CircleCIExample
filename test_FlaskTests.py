@@ -22,12 +22,12 @@ def test_path_with_forward_brackets():
     """Validates exception thrown render_template when a path is improperly specified"""
     try:
         model.preprocess_img("test_images/0/Sign 0 (89).jpeg")
-    except Exception:
+    except ValueError:
         pytest.fail("exception was thrown")
 def test_path_with_backwards_brackets():
     """Validates exception thrown render_template when a path is improperly specified"""
     try:
         model.preprocess_img("test_images\\0\\Sign 0 (89).jpeg")
-    except Exception:
+    except ValueError:
         pytest.fail("exception was thrown")
         
