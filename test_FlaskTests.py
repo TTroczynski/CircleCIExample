@@ -19,7 +19,7 @@ def test_render_template_given_no_path_fails_to_load_template():
         flask.render_template(" ")
     assert str(exception_info.value) != ""
 def test_path_with_forward_brackets():
-    """Validates exception thrown render_template when a path is improperly specified"""
+    """Validates exception is not thrown when path is properly specified"""
     try:
         model.preprocess_img("test_images/0/Sign 0 (89).jpeg")
     except ValueError:
@@ -28,5 +28,6 @@ def test_path_with_backwards_brackets():
     """Validates exception thrown render_template when a path is improperly specified"""
     try:
         model.preprocess_img("test_images\\0\\Sign 0 (89).jpeg")
-    except ValueError:
+    except FileNotFoundError:
         pytest.fail("exception was thrown")
+
