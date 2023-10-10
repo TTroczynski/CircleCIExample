@@ -6,6 +6,10 @@
 
 [![PyTest](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pytest-config.yml/badge.svg)](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/pytest-config.yml)
 
+# Sphinx (Autodoc) Status
+
+[![Documentation](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/Documentation.yml/badge.svg)](https://github.com/TTroczynski/QualityAssignment2/actions/workflows/Documentation.yml)
+
 # Hand Digit Image Recognition
 
 This web app is made using Flask framework and is all about predicting the hand sign digit images based on the deep learning model trained using transfer learning.
