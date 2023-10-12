@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - python/install-packages:
-          pkg-manager: pip pytest
+          pkg-manager: pytest
       - run:
           name: Run tests
           command: pytest test_FlaskTests.py
