@@ -13,6 +13,10 @@ jobs:
           name: Run tests
           command: |
             pip install -U pytest
+            pip install -U flask
+            pip install -U tensorflow
+            pip install -U numpy
+            pip install -U Pillow
             pytest
 workflows:
   sample:
